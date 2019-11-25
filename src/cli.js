@@ -21,6 +21,9 @@ export async function cli(args) {
     
     var configFile = await mountebankSelector(options);
 
+    // Test comment here
+    // another comment here
+
     if (configFile){
         console.log("run the mountebank on " + configFile);
     } else{
